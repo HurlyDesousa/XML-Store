@@ -1,0 +1,9 @@
+<!ELEMENT shop (coffee)+>
+
+<!ELEMENT coffee (category, description, name, price, quantity, img)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT img (#PCDATA)>
